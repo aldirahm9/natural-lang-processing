@@ -44,4 +44,4 @@ print(query_doc_bow)
 query_doc_tf_idf = tf_idf[query_doc_bow]
 print(query_doc_tf_idf)
 
-#sims[query_doc_tf_idf]
+print(sims[query_doc_tf_idf])
