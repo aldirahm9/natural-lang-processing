@@ -32,7 +32,7 @@ for i in corpus:
     s += len(i)
 print(s)
 
-sims = gensim.similarities.Similarity('/usr/workdir/',tf_idf[corpus],
+sims = gensim.similarities.Similarity('/doc/',tf_idf[corpus],
                                       num_features=len(dictionary))
 print(sims)
 print(type(sims))
